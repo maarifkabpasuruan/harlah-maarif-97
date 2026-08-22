@@ -110,7 +110,7 @@ button { font: inherit; }
 .orb { position:absolute; border-radius:50%; filter:blur(1px); }
 .orb-1 { width:80px; height:80px; background:rgba(216,248,108,.18); right:8%; top:9%; animation:float 4s ease-in-out infinite reverse; }
 .orb-2 { width:46px; height:46px; background:rgba(255,255,255,.16); left:8%; bottom:12%; animation:float 4.5s ease-in-out infinite; }
-.floating-chip { position:absolute; padding:10px 14px; border:1px solid rgba(255,255,255,.18); background:rgba(255,255,255,.08); backdrop-filter:blur(12px); border-radius:999px; font-size:11px; color:rgba(255,255,255,.85); }
+.floating-chip { position:absolute; padding:10px 14px; border:1px solid rgba(255,255,255,.18); background:rgba(255,255,255,.08); backdrop-filter:blur(12px); border-radius:999px; font-size:14px; color:rgba(255,255,255,.85); }
 .chip-top { right:2%; top:18%; }
 .chip-bottom { left:0; bottom:16%; }
 @keyframes float { 50% { transform:translateY(-12px); } }
@@ -142,14 +142,14 @@ h2 span { color:var(--green-700); }
   background:linear-gradient(145deg, #e3fbd1, #b9f2d0); color:var(--green-800);
   font-size:30px; flex:none;
 }
-.event-no { font-size:11px; font-weight:700; color:#8a9991; letter-spacing:.12em; }
+.event-no { font-size:13px; font-weight:700; color:#2f3331; letter-spacing:.12em; }
 .event-card h3 { margin:22px 0 15px; font-size:22px; line-height:1.15; letter-spacing:-.02em; max-width:600px; }
-.meta { display:grid; gap:7px; margin-bottom:16px; }
-.meta-row { display:flex; gap:9px; align-items:flex-start; font-size:12px; color:var(--muted); }
-.meta-row b { color:var(--green-900); min-width:58px; }
-.event-desc { margin:0 0 22px; color:#596a61; font-size:13px; line-height:1.7; }
+.meta { display:grid; gap:5px; margin-bottom:16px; }
+.meta-row { display:flex; gap:5px; align-items:flex-start; font-size:15px; color:#103327; }
+.meta-row b { color:var(--green-900); min-width:80px; }
+.event-desc { margin:0 0 22px; color:#103327; font-size:15px; line-height:1.7; }
 .event-actions { display:flex; gap:8px; flex-wrap:wrap; margin-top:auto; position:relative; z-index:2; }
-.event-actions .btn { min-height:40px; padding:0 14px; font-size:12px; }
+.event-actions .btn { min-height:40px; padding:0 14px; font-size:14px; }
 .btn-register { background:var(--green-700); color:#fff; }
 .btn-doc { background:#edf4ef; color:var(--green-900); }
 .btn-wa { background:#dff7e8; color:#17623c; }

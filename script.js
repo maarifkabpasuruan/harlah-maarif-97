@@ -2,32 +2,32 @@ const events = [
   {
     title: "Lomba Mewarnai",
     date: "Sabtu, 12 September 2026",
-    time: "07.30 WIB sampai selesai",
+    time: "07.30 WIB - selesai",
     place: "Aula KH. Achmad Jufry – Graha PCNU Kab. Pasuruan",
     participants: "TK/RA dan KB se-Pasuruan Raya",
     desc: "Saatnya berkreasi, bermain warna, dan menunjukkan imajinasi! Mengembangkan kreativitas, ketelitian, dan keberanian anak melalui karya seni.",
     register: "https://forms.gle/ruoNvM2NvWWc1Ccg8",
     guide: "https://drive.google.com/file/d/1nym8LwQ5iR-qMpbBvOUzY7lnV4eICogo/view?usp=drive_link",
-    wa: ["6285732512428", "6285774493589", "6283848497987", "6285606665266"],
+    wa: ["6285774493589", "6285732512428", "6283848497987", "6285606665266"],
     icon: "🎨"
   },
   {
     title: "Lomba Asmaul Husna",
     date: "Sabtu, 12 September 2026",
-    time: "07.30 WIB sampai selesai",
+    time: "07.30 WIB - selesai",
     place: "Lapangan Futsal UNU Pasuruan",
     participants: "TK/RA se-Pasuruan Raya",
     desc: "Ajang untuk menumbuhkan kecintaan kepada Allah melalui hafalan Asmaul Husna, sekaligus melatih keberanian, ketekunan, dan kepercayaan diri.",
     register: "https://forms.gle/pcKmqG8xeuitREUg6",
     guide: "https://drive.google.com/file/d/1nym8LwQ5iR-qMpbBvOUzY7lnV4eICogo/view?usp=drive_link",
-    wa: ["6285732512428", "6285774493589", "6283848497987", "6285606665266"],
+    wa: ["6283848497987", "6285732512428", "6285774493589", "6285606665266"],
     icon: "☪"
   },
   {
     title: "Musabaqoh Nadzom Aqidatul Awam Kontemporer",
     date: "Sabtu, 12 September 2026",
-    time: "07.00 WIB sampai selesai",
-    place: "Aula Rumah Inovasi Ma’arif NU Kab. Pasuruan Lantai 2 – Warungdowo",
+    time: "07.00 WIB - selesai",
+    place: "Aula Rumah Inovasi Maarif NU Kab. Pasuruan Lantai 2 – Warungdowo",
     participants: "SD/MI se-Pasuruan Raya",
     desc: "Ruang bagi generasi muda untuk mengenal, menghafal, memahami, dan mencintai dasar-dasar aqidah Ahlussunnah wal Jamaah melalui Nadzom Aqidatul Awam secara kreatif dan edukatif.",
     register: "https://forms.gle/2vj65Pct9K3z7Lz28",
@@ -39,33 +39,33 @@ const events = [
   {
     title: "Festival Sholawat Banjari",
     date: "Ahad, 13 September 2026",
-    time: "07.00 WIB sampai selesai",
+    time: "07.00 WIB - selesai",
     place: "Lapangan Futsal UNU Pasuruan – Jl. Raya Warungdowo (Barat Lapangan) Pohjentrek",
     participants: "SMP/MTs se-Pasuruan Raya",
     desc: "Bersholawat, bersatu, menebarkan cinta kepada Rasulullah ﷺ melalui lantunan sholawat yang indah, penuh kekhidmatan, dan sarat nilai keislaman.",
     register: "https://forms.gle/f3326oEyaRUPCX9f9",
     guide: "https://s.id/JuknisBanjari",
     group: "https://s.id/GrupBanjari",
-    wa: ["6281331748933", "6285104930012", "62859171495189", "6287754456006"],
+    wa: ["62859171495189", "6281331748933", "6285104930012", "6287754456006"],
     icon: "🥁"
   },
   {
     title: "Olimpiade Aswaja dan Matematika",
     date: "Ahad, 13 September 2026",
-    time: "07.00 WIB sampai selesai",
+    time: "07.00 WIB - selesai",
     place: "Aula KH. Achmad Jufry – Graha PCNU Kab. Pasuruan – Warungdowo",
     participants: "SD/MI, SMP/MTs, SMA/MA/SMK",
     desc: "Menguatkan Aqidah, Mengasah Logika, Meraih Prestasi. Wadah untuk memperdalam nilai Ahlussunnah wal Jamaah sekaligus mengasah kemampuan berpikir logis, kritis, dan sistematis.",
     register: "https://forms.gle/YxcFA6xdPUvCfUvSA",
     guide: "https://drive.google.com/uc?export=download&id=1nkeVNSc0svmJAMpZPsOeXH75K_MkG1A0",
     group: "https://s.id/GrupOlimpiade2026",
-    wa: ["6281332268174", "6287754456006", "6282225085508"],
+    wa: ["6287754456006", "6281332268174", "6282225085508"],
     icon: "∑"
   },
   {
     title: "Olimpiade Aswaja, Shorof dan Nahwu",
     date: "Ahad, 13 September 2026",
-    time: "07.00 WIB sampai selesai",
+    time: "07.00 WIB - selesai",
     place: "Aula KH. Achmad Jufry – Graha PCNU Kab. Pasuruan – Warungdowo",
     participants: "Madrasah Diniyah Ula",
     desc: "Menguatkan Aqidah, Memperdalam Bahasa Arab, Menghidupkan Tradisi Keilmuan Pesantren melalui penguasaan Shorof dan Nahwu.",
@@ -82,6 +82,7 @@ const events = [
     place: "Aula Rumah Inovasi Maarif NU Kab. Pasuruan",
     participants: "—",
     desc: "Penguatan dan pengembangan pendidikan Madrasah Diniyah Tingkat Wustho melalui workshop serta peluncuran kurikulum sebagai langkah strategis menuju pembelajaran yang lebih terarah dan sistematis.",
+    wa: ["6281332268174", "6281332268174", "6282225085508"],
     icon: "📚"
   },
   {
@@ -89,8 +90,9 @@ const events = [
     date: "Sabtu–Ahad, 12–13 September 2026",
     time: "08.00–17.00 WIB",
     place: "Halaman Kantor PC LP Maarif NU Kab. Pasuruan",
-    participants: "Masyarakat & insan pendidikan",
+    participants: "Sekolah/Madrasah Maarif & Insan Pendidikan",
     desc: "Ruang berbagi, berinovasi, dan mengenal lebih dekat potensi, program, inovasi, serta karya lembaga pendidikan Maarif NU.",
+    wa: ["6285850365299", "6281332268174", "6282225085508"],
     icon: "🏫"
   },
   {
@@ -100,6 +102,7 @@ const events = [
     place: "Aula KH. Achmad Jufry – Graha PCNU Kab. Pasuruan",
     participants: "Undangan & insan pendidikan",
     desc: "Momentum syukur dan refleksi yang dikemas khidmat, dengan event ekshibisi, penyerahan penghargaan kepada para pemenang dan insan berprestasi, serta Maarif NU Award.",
+    wa: ["6285850365299", "6281332268174", "6282225085508"],
     icon: "🏆"
   }
 ];
