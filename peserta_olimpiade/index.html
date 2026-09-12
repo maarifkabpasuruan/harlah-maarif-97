@@ -1,1 +1,101 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Viewer peserta Olimpiade Maarif Tahun 2026">
+  <title>Peserta Olimpiade Maarif 2026</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <img src="../media/Logo_Harlah_LPMNU97.png" alt="Logo Harlah LP Maarif NU ke-97" class="logo"
+           onerror="this.style.display='none'">
+      <div>
+        <div class="eyebrow">OLIMPIADE MAARIF TAHUN 2026</div>
+        <h1>Data Peserta &amp; Denah Tempat Duduk</h1>
+      </div>
+    </div>
+  </header>
 
+  <main class="page">
+    <section class="toolbar">
+      <div class="filter-group">
+        <label for="lembagaFilter">Nama Lembaga</label>
+        <select id="lembagaFilter">
+          <option value="">Semua Lembaga</option>
+        </select>
+      </div>
+
+      <div class="toolbar-actions">
+        <div class="result-info" id="resultInfo">Memuat data...</div>
+        <button id="resetBtn" type="button" class="btn-reset">Reset</button>
+      </div>
+    </section>
+
+    <div id="errorBox" class="error-box hidden"></div>
+
+    <section class="workspace">
+      <div class="panel peserta-panel">
+        <div class="panel-heading">
+          <div>
+            <h2>Peserta</h2>
+            <p>Klik nama/baris peserta untuk menyorot kursinya.</p>
+          </div>
+        </div>
+
+        <div class="table-wrap">
+          <table id="pesertaTable">
+            <thead>
+              <tr>
+                <th>No. Kursi</th>
+                <th>No. Peserta</th>
+                <th class="name-col">Nama Peserta</th>
+                <th>L/P</th>
+                <th>Usia</th>
+              </tr>
+            </thead>
+            <tbody id="pesertaBody">
+              <tr>
+                <td colspan="5" class="loading">Memuat data peserta...</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="panel denah-panel">
+        <div class="panel-heading">
+          <div>
+            <h2>Denah Tempat Duduk</h2>
+            <p id="selectedSeat">Belum ada kursi dipilih</p>
+          </div>
+        </div>
+
+        <div class="seat-layout">
+          <div class="seat-section perempuan-section">
+            <div class="section-title">PEREMPUAN</div>
+            <div id="femaleSeats" class="seat-grid female-grid"></div>
+          </div>
+
+          <div class="seat-section laki-section">
+            <div class="section-title">LAKI-LAKI</div>
+            <div id="maleSeats" class="seat-grid male-grid"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>Olimpiade Maarif Tahun 2026</span>
+    <span id="lastUpdated"></span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
